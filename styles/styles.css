@@ -19,7 +19,7 @@ main {
 
 aside {
     width: 20rem;
-    margine: 1rem;
+    margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #eee;
