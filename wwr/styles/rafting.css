@@ -69,9 +69,8 @@ h1 {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    ;
 
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 16px;
 }
 
@@ -85,7 +84,7 @@ h1 {
 }
 
 footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--accent2-color);
     margin-top: 20px;
     padding-top: 10px;
 }
