@@ -253,7 +253,6 @@ legend {
 .radio-buttons {
     grid-column: 2;
     height: 50%;
-    padding-top: -50%;
     margin-top: -25%;
 }
 
