@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
       content="Contact White Water Warriors Rafting Company for general inquiries, trip reservation, and feedback. Find our location and contact information.">
-    <meta name="author" content="Rename">
+    <meta name="author" content="rename">
     <title>Contact Us | White Water Warriors Rafting Company</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -25,10 +25,76 @@
 
         </nav>
     </header>
+
     <main>
+        <section class="contact-info">
+
+            <p>
+            <h3>White Water Warriors Rafting Company</h3>
+            </p>
+            <p>124 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>Phone: +1 999 999 999</p>
+            <p>Email: info@whitewater.com</p>
+
+        </section>
+
+        <div class="contact-grid">
+
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d397641.29027412273!2d32.6190844!3d0.418396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177c02b69307a5b7%3A0xd7a1ba52f7b72d0b!2sVictoria%20Nile%20River!5e1!3m2!1sen!2sug!4v1780752835624!5m2!1sen!2sug"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <section class="contact-form">
+                <form action="#" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Full name">
 
 
-        <!-- We are here tpo serve -->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+
+                    <legend>Message Purpose</legend>
+                    <fieldset class="purpose-fieldset">
+                        <div class="radio-buttons">
+                            <label>
+                                <input type="radio" name="purpose" value="general-inquiry" checked>
+                                General Inquiry
+                            </label>
+                            <label>
+                                <input type="radio" name="purpose" value="reservation-question">
+                                Reservation Question
+                            </label>
+                            <label>
+                                <input type="radio" name="purpose" value="website-suggestion">
+                                Website Suggestion
+                            </label>
+                        </div>
+
+                    </fieldset>
+
+                    <div class="message-box">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Type here"
+                          required></textarea>
+                    </div>
+
+                    <label class="newsletter">
+                        <input type="checkbox" name="newsletter">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </section>
+        </div>
+
+        <!-- We are here to serve -->
 
         <section class="adventures">
             <h2>We Are Here to Serve You</h2>
@@ -36,17 +102,17 @@
             <div class="gallery">
 
                 <figure>
-                    <img src="images/thunder-rush.jpg" alt="Thunder Rush">
+                    <img src="images/director-of-operations.jpg" alt="Thunder Rush">
                     <figcaption>Director of Operations</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/group-race.jpg" alt="Group Race">
+                    <img src="images/expedition-leader.jpg" alt="Group Race">
                     <figcaption>Expedition Leader</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/lively-adventure.jpg" alt="Lively Adventure">
+                    <img src="images/raft-guide.jpg" alt="Lively Adventure">
                     <figcaption>Raft Guide</figcaption>
                 </figure>
 
@@ -54,7 +120,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 | White Water Warriors Rafting Company | Rename</p>
+        <p>&copy; 2026 | White Water Warriors Rafting Company | rename</p>
 
         <nav class="socialmedia">
             <a href="https://www.linkedin.com">
