@@ -26,6 +26,11 @@ footer {
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
 /* Header & Navigation Layout */
 header {
     display: grid;
