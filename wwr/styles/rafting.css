@@ -31,7 +31,6 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* Header & Navigation Layout */
 header {
     display: grid;
     grid-template-columns: 180px 1fr;
@@ -245,13 +244,14 @@ footer {
     grid-template-columns: 100px 1fr;
     gap: 5px 10px;
     align-items: start;
+    padding-top: 20px;
 }
 
-legend {
+p strong {
     grid-column: 1;
     width: 100px;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 100px;
     white-space: normal;
 }
 
