@@ -55,7 +55,7 @@ aside {
 }
 
 aside img {
-    width: var(--aside-image-width);
+    width: 200px;
     height: auto;
 }
 
@@ -86,6 +86,7 @@ main img {
 
 p {
     margin: 1rem;
+    padding: 0;
 }
 
 footer {
